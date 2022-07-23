@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DemoSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestCase-2(failed)">
+    <classes>
+      <class name="ComMethods.CommonMethods">
+        <methods>
+          <include name="quitChrome"/>
+          <include name="verifyErrorMessageLogin"/>
+          <include name="intitiateDriver"/>
+        </methods>
+      </class> <!-- ComMethods.CommonMethods -->
+    </classes>
+  </test> <!-- TestCase-2(failed) -->
+</suite> <!-- Failed suite [DemoSuite] -->
