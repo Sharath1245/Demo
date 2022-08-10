@@ -3,18 +3,18 @@
 <suite name="DemoSuite">
 <test name="TestCase-1">
 <classes>
-<class name="ComMethods.CommonMethods">
+<class name="testMethods.testCases">
 <methods>
-<include name="verifyCartItem"></include>
+<include name="verifySelectedItemIsSameinCart"></include>
 </methods>
 </class>
 </classes>
 </test>
 <test name="TestCase-2">
 <classes>
-<class name="ComMethods.CommonMethods">
+<class name="testMethods.testCases">
 <methods>
-<include name="verifyErrorMessageLogin"></include>
+<include name="verifyLoginErrorMessage"></include>
 </methods>
 </class>
 </classes>
